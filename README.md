@@ -15,7 +15,7 @@ Enables user to View/Add/Edit /Delete a product. This also provides an option to
 
 Screenshots 
 Import Inventory 
-[url=https://postimg.cc/N5myzqsn][img]https://i.postimg.cc/N5myzqsn/Import-Inventory.png[/img][/url]
+[img]https://i.postimg.cc/N5myzqsn/Import-Inventory.png[/img]
 
  
 
