@@ -1,0 +1,37 @@
+﻿@model InventoryManagement.Models.Product
+<div class="container mt-4">
+    <h2>Are you sure you want to delete this?</h2>
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Delete">
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Name</label>
+                    <input asp-for="Name" class="form-control" disabled />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="4" disabled></textarea>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Quantity" class="form-label">Quantity</label>
+                    <input asp-for="Quantity" class="form-control" disabled />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label">Price</label>
+                    <input asp-for="Price" class="form-control" disabled />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="CreatedDate" class="form-label">CreateDate</label>
+                    <input asp-for="CreatedDate" class="form-control" disabled />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="UpdatedDate" class="form-label">UpdateDate</label>
+                    <input asp-for="UpdatedDate" class="form-control" disabled />
+                </div>
+                <!-- Add more fields here if needed -->
+                <button type="submit" class="btn btn-danger">Delete</button>
+                <a asp-action="ProductList" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

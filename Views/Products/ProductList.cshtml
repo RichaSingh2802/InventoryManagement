@@ -1,0 +1,54 @@
+﻿@model IEnumerable<InventoryManagement.Models.Product>
+<p>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <a asp-action="Create" class="btn btn-primary">Add New Product</a>
+        </div>
+        <div class="col-md-6 text-end">
+            <form asp-action="ExportToExcel" method="post">
+                <button type="submit" asp-action="ExportToExcel" class="btn btn-success">
+                    <img src="../images/excel.png" alt="Excel" style="width: 20px; height: 20px; margin-right: 5px;">
+                    
+                </button>
+            </form>
+        </div>
+    </div>
+</p>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover" style="text-align:center">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Created Date</th>
+                        <th>Updated Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.Name</td>
+                            <td>@product.Description</td>
+                            <td>@product.Quantity</td>
+                            <td>@product.Price</td>
+                            <td>@product.CreatedDate</td>
+                            <td>@product.UpdatedDate</td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-info">Details</a>
+                                <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

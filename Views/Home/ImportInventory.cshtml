@@ -1,0 +1,38 @@
+﻿<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h5 class="card-title">Add Product List</h5>
+                    <form asp-controller="Home" asp-action="ImportInventory" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="file" class="form-label">Choose Excel File to upload the existing Product List</label>
+                            <input type="file" class="form-control" id="fileInput" name="file">
+                        </div>
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+                        <button type="submit" name="Upload" class="btn btn-primary">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .card-custom {
+        margin-top: 50px;
+    }
+</style>
