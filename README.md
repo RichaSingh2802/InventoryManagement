@@ -15,36 +15,37 @@ Enables user to View/Add/Edit /Delete a product. This also provides an option to
 
 Screenshots 
 Import Inventory 
-![ScreenShot](https://i.postimg.cc/N5myzqsn/Import-Inventory.png)
 
- 
+ ![AddNewProduct](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/106f6257-555d-4c64-9dd8-4743bc2cd1c7)
+
 
 Product Management
 Product List 
-[url=https://postimg.cc/sB61h3mM][img]https://i.postimg.cc/sB61h3mM/Product-List.png[/img][/url]
  
+![ProductList](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/980c2f7d-a2e3-4caf-920a-083de5d8285c)
 
 Add New Product
-[url=https://postimg.cc/s1BG5Gts][img]https://i.postimg.cc/s1BG5Gts/Add-New-Product.png[/img][/url]
+![AddNewProduct](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/63363256-a88d-4b19-ab9a-3b281fc657ab)
 
 
 
 
 
 Product Details
-[url=https://postimg.cc/PLrPJCWG][img]https://i.postimg.cc/PLrPJCWG/product-Details.png[/img][/url]
 
+![productDetails](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/7a40454d-6be2-4e54-ba0a-b138071d75eb)
 
 Edit Product
-[url=https://postimg.cc/3khyMSWx][img]https://i.postimg.cc/3khyMSWx/Edit-Product.png[/img][/url]
+![EditProduct](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/84d04f47-2ee5-439b-8cbb-3800d3a99887)
 
 
 Delete Product
-[url=https://postimg.cc/75N5q3TM][img]https://i.postimg.cc/75N5q3TM/Delete-Product.png[/img][/url]
 
+![DeleteProduct](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/d0211140-3e19-4ba6-956f-9ae55d41096b)
 
 Export Product List to Excel
-[url=https://postimg.cc/FdYzbwCD][img]https://i.postimg.cc/FdYzbwCD/Export-As-Excel.png[/img][/url]
+![ExportAsExcel](https://github.com/RichaSingh2802/InventoryManagement/assets/165942770/ee781f62-503c-4012-a31b-ae1d4f4f54f5)
+
 
 
 
